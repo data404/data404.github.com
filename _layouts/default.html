@@ -5,13 +5,27 @@
   <head>
     <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
     <title>data404 - {{ page.title }}</title>
-    <link href="http://github.com/stylesheets/bundle_common.css" media="screen" rel="stylesheet" type="text/css" />
-    <link href="http://github.com/stylesheets/bundle_github.css" media="screen" rel="stylesheet" type="text/css" />
-    <link href="/stylesheets/screen.css" media="screen" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="/stylesheets/master.css" type="text/css" media="screen" title="master" charset="utf-8">
   </head>
   <body>
-    <div id="main">
-	{{ content }}
-    </div>
+	<div id="container">
+		<div id="links">
+			<h1>data404</h1>
+			<ul>
+				<li><a href="">home</a></li>
+				<li><a href="">about</a></li>
+				<li><a href="http://data404.org/wiki">documentation</a></li>
+				<li><a href="">road map</a></li>
+				<li><a href="">faq</a></li>
+				<li><a href="">contact us</a></li>
+			</ul>
+		</div>
+		<div id="main">
+			{{ content }}
+	    </div>
+		<div id="footer">
+			
+		</div>
+	</div>
   </body>
 </html>
