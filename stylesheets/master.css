@@ -1,6 +1,142 @@
-#container {
-	width: 791px;
-	margin: 0 auto;
-	font-family: "Baskerville", serif;
-	color: #3f3f3f;
+@font-face{
+	font-family:"hocus_focus";
+	src:local("hocus_focus"),url("../fonts/hocus_focus.ttf");
 }
+
+@font-face{
+	font-family:"Charlotte";
+	src:local("Charlotte"),url("../fonts/LLCHARLO.ttf");
+}
+
+@font-face{
+	font-family:"Cacavia";
+	src:local("Cacavia"),url("../fonts/cacavia01.ttf");
+}
+
+
+body {
+	background: url("../img/tile.jpeg") repeat scroll left top #bfa77b;
+	color: #000;
+	margin: 0;
+	padding: 0;
+	font: large/1.556 "Linux Libertine", "Baskerville", Palatino,"Palatino Linotype","Book Antiqua",Georgia,"Times New Roman",serif;
+	word-spacing: 0.1em;
+}
+
+#container {
+
+	width: 750px;
+	margin: 0 auto;
+	padding: 0 3em 5em;
+}
+
+#photoWrapper {
+	height: 250px;
+	background: url("../img/top.jpeg") no-repeat center top;
+}
+#main {
+}
+
+pre, code {
+	font: medium/1.75 Consolas,"Andale Mono",Monaco,"Liberation Mono","Bitstream Vera Sans Mono","DejaVu Sans Mono",monospace;
+	letter-spacing: 0;
+	word-spacing: 0;
+}
+
+p, ul, ol {
+	font-size: 1.3em;
+	margin: 1.556em 0;
+}
+
+em, i {
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link {
+	border-bottom: 1px dotted;
+	color: FireBrick;
+}
+
+a:visited {
+	border-bottom: 1px dotted;
+	color: RosyBrown;	
+}
+
+a:link:hover, a:visited:hover {
+	border-bottom: 1px solid;
+}
+
+pre {
+	padding-left: 3.5em;
+}
+
+li, ol {
+	margin: 0;
+}
+
+code {
+	line-height: inherit !important;
+}
+
+h1, h2, h3 {
+	font-family: "Linux Libertine",Palatino,"Palatino Linotype","Book Antiqua",Georgia,"Times New Roman",serif;
+	text-shadow:0 0 1px #666677;
+
+
+}
+
+h1 {
+	font-family: "hocus_focus","Linux Libertine",Palatino,"Palatino Linotype","Book Antiqua",Georgia,"Times New Roman",serif;
+	font-size: 610%;
+	line-height:1.1;
+	margin: 0;
+	text-align:center;
+	width:100%;
+	color: #af322c;
+	text-transform:uppercase;
+}
+
+h2.subtitle {
+	text-transform:uppercase;
+	font-family: "hocus_focus";
+	font-size: 300%;
+	margin: 0;
+	padding: 0;
+}
+
+h2 {
+	font-family: "Charlotte";
+	clear:both;
+	font-size:220%;
+	line-height:1.3125;
+	margin:0;
+	text-align:center;
+	color: #000;
+}
+
+
+.a {
+	font-family: "hocus_focus";
+	margin: 0;
+	padding: 0;
+	font-size: 400%;
+	line-height: 0;
+	color: #af322c;
+	text-align: center;
+}
+
+.mascota {
+	font-family: "Cacavia";
+	text-align: center;
+	font-size: 440%;
+	margin: 0;
+	padding: 0;
+}
+
+
+
