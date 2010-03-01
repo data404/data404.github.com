@@ -50,7 +50,7 @@ Principis de la comunitat
 * El lideratge pot sorgir en qualsevol moment i de qualsevol persona.
 
 
-Si vols saber més
+Si vols saber-ne més
 -----------------
 El projecte <span class="data404">data404</span> té presència en altres serveis de conversa a la web:
 
