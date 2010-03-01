@@ -35,7 +35,7 @@ Com va nèixer data404
 ---------------------
 El projecte <span class="data404">data404</span> va nèixer de diferents necessitats
 
-També pots veure el [video](http://medialab-prado.es/article/data404_producir_liberar_remezclar_y_representar_la_informacion_publica_) de la presentació al seminari [Visualizar'09](http://medialab-prado.es/article/taller-seminario_visualizar09_datos_publicos_datos_en_publico) del projecte <span class="data404">data404</span>.
+També pots veure el [video](http://medialab-prado.es/article/data404_producir_liberar_remezclar_y_representar_la_informacion_publica_) de la presentació al seminari [Visualizar'09](http://medialab-prado.es/article/taller-seminario_visualizar09_datos_publicos_datos_en_publico) del projecte <span class='data404'>data404</span>.
 
 Qui som?
 --------
