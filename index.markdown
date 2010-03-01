@@ -3,7 +3,7 @@ title: Home
 layout: default
 ---
 
-Què és data404?
+Què és <span class='data404'>data404</span>?
 ---------------
 
 L'objectiu d'aquest projecte és el desenvolupament d'eines lliures que ajudin a millorar l'accés de les dades de l'administració pública com també estimulin la participació ciudadana en la creació de la seva ciutat.
